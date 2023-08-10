@@ -1,0 +1,21 @@
+{
+  "name": "parcel-02",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "live-server",
+    "build": "rimraf dist & rimraf .parcel-cache & parcel build ./js/bundle.js & parcel build ./css/bundle.scss"
+  },
+  "keywords": [],
+  "author": "Manit Treeprapankit",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "autoprefixer": "^10.4.14",
+    "live-server": "^1.2.2",
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.27",
+    "rimraf": "^5.0.1"
+  }
+}

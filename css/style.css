@@ -1,0 +1,7 @@
+body {
+    font-family: roboto, sans-serif, tahoma;
+}
+
+:fullscreen {
+    outline: 1px solid #eee;
+}
