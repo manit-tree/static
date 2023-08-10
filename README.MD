@@ -1,6 +1,7 @@
 # A starting template for Web Development using HTML, JavaScript and CSS
 
 Development Server : Live Server
+
 Bundle Tool : Parcel
 
 ## Install required Packages 
