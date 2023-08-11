@@ -29,7 +29,12 @@
 /* visibility */
 .visible {visibility: visible;}
 .hidden {visibility: hidden;}
-.display-none {display: none;}
+
+/* display */
+.inline {display: inline;}
+.inline-block {display: inline-block;}
+.block {display: block;}
+.none {display: none;}
 
 /* text alignment */
 .text-center {text-align: center;}
@@ -41,6 +46,18 @@
 .flex-row {flex-direction: row;}
 .flex-col {flex-direction: column;}
 .flex-wrap {flex-wrap: wrap;}
+.jc-center {justify-content: center;}
+.jc-start {justify-content: flex-start;}
+.jc-end {justify-content: flex-end;}
+.ji-center {justify-items: center;}
+.ji-start {justify-content: start;}
+.ji-end {justify-content: flex-end;}
+.js-center {justify-self: center;}
+.js-start {justify-self: flex-start;}
+.js-end {justify-self: flex-end;}
+.ai-center {align-items: center;}
+.ai-start {align-items: flex-start;}
+.ai-end {align-items: flex-end}
 
 /* grid */
 .grid {display: grid}
