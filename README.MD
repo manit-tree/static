@@ -23,13 +23,13 @@ the build process will bundle 2 files
 1. ./js/bundle.js -> ./dist/bundle.js
 2. ./css/bundle.scss -> ./dist/bundle.css
 
-** To build JavaScript only, run **
+**To build JavaScript only, run**
 
 npm run build-js
 
 the build process will bundle ./js/bundle.js -> ./dist/bundle.js
 
-** To build CSS only, run **
+**To build CSS only, run**
 
 npm run build-css
 
