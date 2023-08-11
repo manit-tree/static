@@ -1,3 +1,3 @@
-import axios from 'axios';
+import http from 'lil-http';
 
-window.axios = axios;
+window.http = http;
