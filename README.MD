@@ -12,9 +12,7 @@ npm install
 
 npm run dev
 
-## Build
-
-To build both JavaScript and CSS run
+## Build both JS + CSS
 
 npm run build
 
@@ -23,14 +21,14 @@ npm run build
 1. ./js/bundle.js -> ./dist/bundle.js
 2. ./css/bundle.scss -> ./dist/bundle.css
 
-**To build JavaScript only, run**
+## Build JS Only
 
 npm run build-js
 
 the build process will bundle ./js/bundle.js -> ./dist/bundle.js
 
-**To build CSS only, run**
+## Build CSS only
 
-npm run build-css
+npm run build-cssy
 
 the build process will bundle ./css/bundle.scss -> ./dist/bundle.css
