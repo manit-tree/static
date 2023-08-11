@@ -5,7 +5,9 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "live-server",
-    "build": "rimraf dist & rimraf .parcel-cache & parcel build ./js/bundle.js & parcel build ./css/bundle.scss"
+    "build": "rimraf dist & rimraf .parcel-cache & parcel build ./js/bundle.js & parcel build ./css/bundle.scss",
+    "build-js": "parcel build ./js/bundle.js",
+    "build-css": "parcel build ./css/bundle.scss"
   },
   "keywords": [],
   "author": "Manit Treeprapankit",
