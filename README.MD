@@ -18,7 +18,7 @@ To build both JavaScript and CSS run
 
 npm run build
 
-the build process will bundle 2 files
+**the build process will bundle 2 files**
 
 1. ./js/bundle.js -> ./dist/bundle.js
 2. ./css/bundle.scss -> ./dist/bundle.css
